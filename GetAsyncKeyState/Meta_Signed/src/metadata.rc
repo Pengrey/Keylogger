@@ -1,0 +1,31 @@
+#include <winver.h>
+
+1 ICON "icon.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x4L
+FILETYPE 0x1L
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904E4"
+        {
+            VALUE "CompanyName", "NVIDIA Corporation\0"
+            VALUE "FileDescription", "NVIDIA GeForce Experience\0"
+            VALUE "FileVersion", "173.3683.1933.5\0"
+            VALUE "InternalName", "pengrey\0"
+            VALUE "LegalCopyright", "(C) 2017-2024 NVIDIA Corporation\0"
+            VALUE "OriginalFilename", "NVIDIA GeForce Experience.exe\0"
+            VALUE "ProductName", "NVIDIA GeForce Experience\0"
+            VALUE "ProductVersion", "rel_03_28/9a 1bfbe\0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x409, 1252
+    }
+}
