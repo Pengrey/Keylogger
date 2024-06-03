@@ -50,7 +50,7 @@ def fill_asm(SSN):
         file.write( source )
 
 # System Service Number (https://j00ru.vexillium.org/syscalls/win32k/64/)
-SSN = "103Fh"
+SSN = "0x103F"
 
 def main():
     # Init logger

@@ -11,4 +11,3 @@ Usage of various methods to register user keystrokes.
 5. Direct Syscall (Hard Coded)
 6. Env Checks
 7. Metadata and signature
-8. Windows Recall

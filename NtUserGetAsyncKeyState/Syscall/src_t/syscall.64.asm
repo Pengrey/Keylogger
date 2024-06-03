@@ -3,7 +3,7 @@ section .text
 
 NtUserGetAsyncKeyState:
     mov r10, rcx
-    mov eax, dword [[SSN]]
+    mov eax, [[SSN]]
 
     syscall
     ret

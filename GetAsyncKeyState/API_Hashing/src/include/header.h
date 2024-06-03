@@ -9,3 +9,7 @@
 typedef SHORT (WINAPI* fnGetAsyncKeyState)(
 	_In_    INT     vKey
 );
+
+HMODULE GetModuleHandleH(
+	_In_	DWORD 	dwModuleNameHash
+);
